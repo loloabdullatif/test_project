@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:test_project/pages/home_page.dart';
 import 'package:test_project/pages/home_page_2.dart';
+import 'package:test_project/pages/home_page_3.dart';
 
 void main() {
   runApp(const Application());
@@ -12,7 +13,8 @@ class Application extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: HomePage2(),
+      home: HomePage3(),
+      //color: Colors.pink[300],
     );
   }
 }
